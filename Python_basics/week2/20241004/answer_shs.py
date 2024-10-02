@@ -1,7 +1,7 @@
+from pandas import DataFrame
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 '''
 문제 1
@@ -23,6 +23,46 @@ output <- 시각화 이미지/ 전처리된 csv 저장하는 위치.
 
 # data = pd.read_csv('C:/Users/1018g/OneDrive/바탕 화면/playground-series-s4e9/sample_submission.csv')
 
-# 데이터 프레임 내보내기
-txt = [1,2,3]
-print(txt)
+from pandas import DataFrame
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+data = [
+    ["2차전지(생산)", "SK이노베이션", 10.19, 1.29],
+    ["해운", "팬오션", 21.23, 0.95],
+    ["시스템반도체", "티엘아이", 35.97, 1.12],
+    ["해운", "HMM", 21.52, 3.20],
+    ["시스템반도체", "아이에이", 37.32, 3.55],
+    ["2차전지(생산)", "LG화학", 83.06, 3.75]
+]
+
+columns = ["테마", "종목명", "PER", "PBR"]
+df = DataFrame(data=data, columns=columns)
+
+#--
+
+df = pd.read_excel('C:/Users/1018g/OneDrive/바탕 화면/iM DBA/ss_ex_1.xlsx', parse_dates = ['일자'])
+#df['일자'] = pd.to_datetime(df['일자'])
+
+def set_time_cols(data):
+  data['분기'] = data['일자'].dt.quarter
+  data['연도'] = data['일자'].dt.year
+  data['월'] = data['일자'].dt.month
+  data['일'] = data['일자'].dt.day
+  data = data.drop(columns = ['일자'])
+  return data
+
+df2 = set_time_cols(df)
+#print(df2.info())
+
+
+the_great_filter = {
+  '시가': 'first',
+  '종가': 'last',
+  '고가': 'max',
+  '저가': 'min',
+  '거래량': "sum"
+}
+
+#print(df2.groupby(['연도', '분기']).agg(the_great_filter))
