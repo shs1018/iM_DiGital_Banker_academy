@@ -1,41 +1,49 @@
 # -*- coding: utf-8 -*-
-import streamlit as st
-import pandas as pd
+import streamlit as st 
+import pandas as pd 
 
-'''
-캐시메모리는 대용량 데이터를 불러오면 안됨
-현업 : SQL데이터 가공을 일부 진행
-쉽게 말하면 Raw 데이터(1GB이상)은 끌고 오면 안됨
-'''
-@st.cache_data 
+
+# 캐시메모리는 대용량 데이터는 불러오면 안됨
+# 현업 : SQL 데이터 가공을 일부 진행
+# 쉽게 말하면 Raw 데이터는 끌고 오면 안됨
+@st.cache_data
 def load_data():
-    train = pd.read_csv('/data/train.csv')
-    return train
-
-
-
+    train = pd.read_csv('./data/train.csv')
+    return train 
 
 def main():
-    st.title("Let's get started!")
+    st.title("여기에서부터 시작")
 
     train = load_data()
-    print(train.head)
-    # 데이터가공
-    m_tips = tips.loc[tips['sex'] == 'Male', :]
-    f_tips = tips.loc[tips['sex'] == 'Female', :]
+    print(train.head())
+    st.dataframe(train, width=100)
+    st.data_editor(train)
+    # st.table(train) 가급적 쓰지 말자
 
-    # 시각화 차트
-    fig, ax = plt.subplots(ncols=2, figsize=(10, 6), sharex=True, sharey=True)
-    ax[0].scatter(x = m_tips['total_bill'], y = m_tips['tip'])
-    ax[0].set_title('Male')
-    ax[1].scatter(x = f_tips['total_bill'], y = f_tips['tip'])
-    ax[1].set_title('Female')
+    data_df = pd.DataFrame(
+        {
+            "sales": [
+                [0, 4, 26, 80, 100, 40],
+                [80, 20, 80, 35, 40, 100],
+                [10, 20, 80, 80, 70, 0],
+                [10, 100, 20, 100, 30, 100],
+            ],
+        }
+    )
+    st.dataframe(data_df)
 
-    # 중요포인트
-    # plt.show()
-    st.pyplot(fig)n
-
-
+    st.data_editor(
+        data_df,
+        column_config={
+            "sales": st.column_config.BarChartColumn(
+                "Sales (last 6 months)",
+                help="The sales volume in the last 6 months",
+                y_min=0,
+                y_max=100,
+            ),
+        },
+        hide_index=True,
+    )
 
 if __name__ == "__main__":
     main()

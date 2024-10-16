@@ -1,73 +1,89 @@
+import time
+import numpy as np
+import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.write('Hello Streamlit!')
-st.write('Good bye Streamlit!')
+st.write("Hello World!")
+st.write("Hello World!!")
 
-def main():
-    st.title("This is Text Elements")
-    st.header("This is Header/헤더")
-    st.subheader("This is sub Header")
-    st.write("파이썬 문법 사용 가능")
-    st.write("-" * 50) # print()
-    st.markdown(""" 
-    ## Chapter 1. 
-    - 색상 테스트 : This text is :red[colored red], and **:blue[colored]** and bold.
-    """)
-    st.markdown(""" 
-    ### SubChapter 1. 
-    - 피타고라스 정리 : :red[$\sqrt{x^2+y^2}=1$] is a Pythagorean identity. :pencil:
-    """)
-    st.markdown("## Chapter 2. \n"
-                "- Streamlit is **_really_ cool**.\n"
-                "   * This text is :blue[colored blue], and this is **:red[colored] ** and bold.")
-    
+st.title("This is a title")
+st.title("_Streamlit_ is :blue[cool] :sunglasses:")
 
-if __name__ == "__main__":
-    main()
+_LOREM_IPSUM = """
+Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+"""
 
-def main():
-    st.markdown("HTML CSS 마크다운 적용")
-    html_css = """
-    <style>
-        table.customTable {
-        width: 100%;
-        background-color: #FFFFFF;
-        border-collapse: collapse;
-        border-width: 2px;
-        border-color: #7ea8f8;
-        border-style: solid;
-        color: #000000;
-        }
-    </style>
+def stream_data():
+    for word in _LOREM_IPSUM.split(" "):
+        yield word + " "
+        time.sleep(0.02)
 
-    <table class="customTable">
-      <thead>
-        <tr>
-          <th>이름</th>
-          <th>나이</th>
-          <th>직업</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Evan</td>
-          <td>25</td>
-          <td>데이터 분석가</td>
-        </tr>
-        <tr>
-          <td>Sara</td>
-          <td>25</td>
-          <td>프로덕트 오너</td>
-        </tr>
-      </tbody>
-    </table>
-    """
+    yield pd.DataFrame(
+        np.random.randn(5, 10),
+        columns=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+    )
 
-    st.markdown(html_css, unsafe_allow_html=True)
+    for word in _LOREM_IPSUM.split(" "):
+        yield word + " "
+        time.sleep(0.02)
 
 
+if st.button("Stream data"):
+    st.write_stream(stream_data)
 
-if __name__ == "__main__":
-    main()
 
+st.markdown("HTML CSS 마크다운 적용")
+html_css = """
+<style>
+    table.customTable {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7ea8f8;
+    border-style: solid;
+    color: #000000;
+    }
+</style>
+
+<table class="customTable">
+    <thead>
+    <tr>
+        <th>이름</th>
+        <th>나이</th>
+        <th>직업</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Evan</td>
+        <td>25</td>
+        <td>데이터 분석가</td>
+    </tr>
+    <tr>
+        <td>Sara</td>
+        <td>25</td>
+        <td>프로덕트 오너</td>
+    </tr>
+    </tbody>
+</table>
+"""
+
+st.markdown(html_css, unsafe_allow_html=True)
+
+st.markdown("HTML JS Streamlit 적용")
+js_code = """ 
+<h3>Hi</h3>
+
+<script>
+function sayHello() {
+    alert('Hello from JavaScript in Streamlit Web');
+}
+</script>
+
+<button onclick="sayHello()">Click me</button>
+"""
+components.html(js_code)
