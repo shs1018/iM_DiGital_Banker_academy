@@ -3,9 +3,9 @@ import streamlit as st
 import pandas as pd
 
 def main():
-    st.title("Let's get started!")
+    st.title("Let's get down to business!")
 
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
