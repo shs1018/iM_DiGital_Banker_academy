@@ -5,11 +5,8 @@ openpyxl
 seaborn
 scipy
 scikit-learn
-# jupyterlab
 plotly
-# yfinance
 streamlit
-# altair<5 # Version Crash!
-# stargazer
+stargazer
 pingouin
 statsmodels
