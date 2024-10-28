@@ -10,3 +10,5 @@ streamlit
 stargazer
 pingouin
 statsmodels
+mysql-connector-python
+pymysql
