@@ -1,0 +1,700 @@
+CustomerID,Age,Gender,Tenure,MonthlyCharges,ContractType,InternetService,TotalCharges,TechSupport,Churn
+cust344,39,Female,24,48.68,Two-Year,DSL,1168.32,Yes,No
+cust25,39,Male,47,79.36,One-Year,DSL,3729.92,Yes,No
+cust404,45,Female,29,53.89,Two-Year,DSL,1562.81,Yes,No
+cust340,39,Male,21,73.75,Two-Year,DSL,1548.75,Yes,No
+cust53,38,Female,18,58.24,Two-Year,Fiber Optic,1048.32,Yes,No
+cust704,30,Male,41,44.52,One-Year,DSL,1825.32,Yes,No
+cust611,51,Female,72,76.27,Two-Year,Fiber Optic,5491.44,Yes,No
+cust781,46,Male,58,68.62,One-Year,Fiber Optic,3979.96,Yes,No
+cust290,38,Male,19,59.54,Two-Year,DSL,1131.26,Yes,No
+cust58,41,Female,41,75.64,Two-Year,Fiber Optic,3101.24,Yes,No
+cust310,42,Female,14,46.46,Two-Year,Fiber Optic,650.44,Yes,No
+cust229,37,Female,32,45.07,Two-Year,Fiber Optic,1442.24,Yes,No
+cust790,28,Female,22,35.39,One-Year,Fiber Optic,778.58,Yes,No
+cust889,50,Female,14,41.99,One-Year,DSL,587.86,Yes,No
+cust157,63,Female,16,90.98,Two-Year,DSL,1455.68,Yes,No
+cust9,40,Female,53,49.81,Two-Year,Fiber Optic,2639.9300000000003,Yes,No
+cust519,45,Male,16,52.76,One-Year,DSL,844.16,Yes,No
+cust947,29,Female,15,98.06,One-Year,Fiber Optic,1470.9,Yes,No
+cust643,42,Female,60,45.38,One-Year,DSL,2722.8,Yes,No
+cust870,65,Female,13,64.99,Two-Year,Fiber Optic,844.8699999999999,Yes,No
+cust555,48,Male,21,67.59,Two-Year,DSL,1419.39,Yes,No
+cust760,52,Female,69,31.46,One-Year,Fiber Optic,2170.74,Yes,No
+cust964,52,Male,45,66.06,Two-Year,DSL,2972.7000000000003,Yes,No
+cust68,55,Female,13,53.77,One-Year,Fiber Optic,699.01,Yes,No
+cust128,39,Male,12,33.5,One-Year,Fiber Optic,402.0,Yes,No
+cust570,41,Female,17,61.94,One-Year,Fiber Optic,1052.98,Yes,No
+cust261,35,Female,14,54.63,One-Year,DSL,764.82,Yes,No
+cust205,31,Female,35,55.79,One-Year,Fiber Optic,1952.65,Yes,No
+cust438,31,Male,63,75.14,Two-Year,Fiber Optic,4733.82,Yes,No
+cust193,47,Male,17,32.86,One-Year,Fiber Optic,558.62,Yes,No
+cust935,49,Female,14,93.16,One-Year,Fiber Optic,1304.24,Yes,No
+cust531,51,Male,26,72.0,One-Year,Fiber Optic,1872.0,Yes,No
+cust662,39,Male,39,67.77,One-Year,Fiber Optic,2643.03,Yes,No
+cust258,37,Female,59,75.5,Two-Year,Fiber Optic,4454.5,Yes,No
+cust620,47,Female,21,65.56,Two-Year,DSL,1376.76,Yes,No
+cust365,51,Female,12,75.89,One-Year,DSL,910.68,Yes,No
+cust51,48,Male,22,54.38,One-Year,DSL,1196.36,Yes,No
+cust276,49,Male,47,78.42,One-Year,DSL,3685.74,Yes,No
+cust918,46,Female,23,51.04,One-Year,Fiber Optic,1173.92,Yes,No
+cust553,56,Female,16,94.33,One-Year,Fiber Optic,1509.28,Yes,No
+cust240,53,Male,35,41.67,One-Year,DSL,1458.45,Yes,No
+cust347,30,Female,30,72.13,Two-Year,Fiber Optic,2163.9,Yes,No
+cust696,41,Male,32,49.0,One-Year,Fiber Optic,1568.0,Yes,No
+cust26,46,Male,25,35.98,Two-Year,DSL,899.4999999999999,Yes,No
+cust700,43,Female,40,69.79,Two-Year,Fiber Optic,2791.6000000000004,Yes,No
+cust546,37,Male,28,32.94,Two-Year,DSL,922.32,Yes,No
+cust307,57,Male,27,46.67,Two-Year,DSL,1260.09,Yes,No
+cust289,47,Female,17,66.61,One-Year,Fiber Optic,1132.37,Yes,No
+cust145,47,Female,16,60.77,Two-Year,Fiber Optic,972.32,Yes,No
+cust521,28,Male,13,62.33,Two-Year,DSL,810.29,Yes,No
+cust284,32,Female,20,74.33,One-Year,Fiber Optic,1486.6,Yes,No
+cust422,62,Female,73,37.1,Two-Year,Fiber Optic,2708.3,Yes,No
+cust30,42,Male,62,97.66,Two-Year,Fiber Optic,6054.92,Yes,No
+cust343,47,Female,60,56.23,One-Year,DSL,3373.8,Yes,No
+cust580,56,Female,12,67.73,One-Year,DSL,812.76,Yes,No
+cust651,63,Male,14,89.55,One-Year,Fiber Optic,1253.7,Yes,No
+cust239,38,Male,26,50.93,One-Year,DSL,1324.18,Yes,No
+cust166,49,Female,42,44.06,One-Year,DSL,1850.52,Yes,No
+cust780,51,Female,40,81.78,One-Year,DSL,3271.2,Yes,No
+cust843,33,Male,14,89.86,One-Year,Fiber Optic,1258.04,Yes,No
+cust214,51,Female,44,35.62,Two-Year,Fiber Optic,1567.28,Yes,No
+cust38,25,Female,23,47.55,One-Year,Fiber Optic,1093.65,Yes,No
+cust831,31,Female,22,91.17,One-Year,Fiber Optic,2005.74,Yes,No
+cust373,59,Male,26,32.25,One-Year,DSL,838.5,Yes,No
+cust87,54,Female,49,32.8,One-Year,DSL,1607.1999999999998,Yes,No
+cust901,48,Male,56,32.31,One-Year,DSL,1809.36,Yes,No
+cust19,35,Male,98,49.59,Two-Year,Fiber Optic,4859.820000000001,Yes,No
+cust146,52,Male,15,77.49,Two-Year,DSL,1162.35,Yes,No
+cust300,51,Female,29,88.03,One-Year,Fiber Optic,2552.87,Yes,No
+cust767,44,Female,18,98.88,One-Year,Fiber Optic,1779.84,Yes,No
+cust27,33,Female,18,98.99,One-Year,Fiber Optic,1781.82,Yes,No
+cust746,37,Female,70,56.05,One-Year,DSL,3923.5,Yes,No
+cust853,38,Female,30,95.6,One-Year,Fiber Optic,2868.0,Yes,No
+cust957,48,Female,18,60.54,One-Year,Fiber Optic,1089.72,Yes,No
+cust421,65,Male,20,60.6,One-Year,DSL,1212.0,Yes,No
+cust377,53,Female,24,95.21,One-Year,Fiber Optic,2285.04,Yes,No
+cust652,56,Male,14,84.22,One-Year,DSL,1179.08,Yes,No
+cust361,50,Female,34,60.64,Two-Year,Fiber Optic,2061.76,Yes,No
+cust672,24,Male,16,33.62,One-Year,DSL,537.92,Yes,No
+cust514,35,Male,25,34.75,Two-Year,Fiber Optic,868.75,Yes,No
+cust951,42,Male,13,52.58,One-Year,DSL,683.54,Yes,No
+cust56,54,Female,48,68.24,One-Year,,3275.5199999999995,No,Yes
+cust917,51,Male,3,78.99,Month-to-Month,Fiber Optic,236.97,Yes,Yes
+cust817,47,Male,25,36.25,One-Year,,906.25,No,Yes
+cust750,30,Female,24,68.47,One-Year,,1643.28,No,Yes
+cust996,42,Male,41,37.14,Month-to-Month,Fiber Optic,1522.74,Yes,Yes
+cust871,43,Female,52,51.63,Month-to-Month,Fiber Optic,2684.76,No,Yes
+cust386,46,Female,36,41.29,Month-to-Month,Fiber Optic,1486.44,Yes,Yes
+cust346,47,Female,2,111.76,Month-to-Month,,223.52,No,Yes
+cust137,37,Female,82,98.11,Month-to-Month,Fiber Optic,8045.019999999999,No,Yes
+cust471,42,Female,15,83.65,Two-Year,DSL,1254.75,No,Yes
+cust225,40,Male,23,50.64,Two-Year,,1164.72,No,Yes
+cust86,39,Male,38,68.91,Month-to-Month,Fiber Optic,2618.58,Yes,Yes
+cust522,50,Female,0,104.12,Two-Year,Fiber Optic,0.0,No,Yes
+cust919,40,Female,5,87.4,Month-to-Month,,437.0,No,Yes
+cust243,50,Male,28,90.66,Month-to-Month,Fiber Optic,2538.48,Yes,Yes
+cust794,32,Male,5,34.05,Month-to-Month,DSL,170.25,Yes,Yes
+cust512,44,Male,3,61.28,Two-Year,,183.84,No,Yes
+cust608,32,Male,10,52.61,Month-to-Month,Fiber Optic,526.1,Yes,Yes
+cust329,51,Male,9,52.47,Two-Year,DSL,472.23,No,Yes
+cust667,42,Female,8,32.58,Month-to-Month,Fiber Optic,260.64,No,Yes
+cust80,25,Female,6,100.02,Month-to-Month,,600.12,No,Yes
+cust385,37,Male,6,97.57,Month-to-Month,DSL,585.42,Yes,Yes
+cust992,24,Male,32,81.93,Month-to-Month,Fiber Optic,2621.76,Yes,Yes
+cust661,39,Female,26,113.38,Month-to-Month,Fiber Optic,2947.88,Yes,Yes
+cust81,42,Male,7,98.48,Month-to-Month,Fiber Optic,689.36,No,Yes
+cust259,49,Male,1,42.97,Month-to-Month,,42.97,No,Yes
+cust565,57,Female,40,103.32,One-Year,Fiber Optic,4132.799999999999,Yes,Yes
+cust545,20,Male,9,77.84,Two-Year,Fiber Optic,700.5600000000001,No,Yes
+cust292,40,Male,22,98.62,Month-to-Month,Fiber Optic,2169.6400000000003,Yes,Yes
+cust32,63,Female,0,76.62,Two-Year,DSL,0.0,Yes,Yes
+cust40,46,Female,9,97.5,Month-to-Month,,877.5,No,Yes
+cust629,45,Female,9,119.13,Month-to-Month,DSL,1072.17,Yes,Yes
+cust828,39,Male,12,111.02,Month-to-Month,,1332.24,No,Yes
+cust84,39,Female,32,92.91,One-Year,DSL,2973.12,No,Yes
+cust112,44,Female,4,119.79,Month-to-Month,Fiber Optic,479.16,Yes,Yes
+cust49,48,Female,56,72.65,One-Year,,4068.400000000001,No,Yes
+cust980,52,Female,34,82.36,Month-to-Month,Fiber Optic,2800.24,No,Yes
+cust223,51,Male,23,36.39,Month-to-Month,DSL,836.97,No,Yes
+cust298,48,Male,14,82.14,Month-to-Month,,1149.96,No,Yes
+cust334,38,Male,9,86.46,One-Year,DSL,778.14,Yes,Yes
+cust333,45,Male,13,101.33,One-Year,Fiber Optic,1317.29,Yes,Yes
+cust91,45,Female,9,51.91,Two-Year,Fiber Optic,467.19,Yes,Yes
+cust939,47,Female,9,31.88,One-Year,Fiber Optic,286.92,Yes,Yes
+cust867,47,Male,7,79.4,Month-to-Month,DSL,555.8000000000001,Yes,Yes
+cust337,36,Female,0,71.25,Two-Year,DSL,0.0,Yes,Yes
+cust588,36,Female,1,49.84,Month-to-Month,,49.84,No,Yes
+cust720,44,Male,8,53.38,Month-to-Month,,427.04,No,Yes
+cust606,63,Male,29,64.11,Month-to-Month,Fiber Optic,1859.19,Yes,Yes
+cust286,25,Male,43,105.44,Month-to-Month,Fiber Optic,4533.92,No,Yes
+cust379,66,Female,44,84.75,Month-to-Month,,3729.0,No,Yes
+cust161,35,Female,11,75.03,One-Year,Fiber Optic,825.33,Yes,Yes
+cust412,33,Male,6,54.97,Month-to-Month,DSL,329.82,Yes,Yes
+cust707,32,Female,5,98.41,Two-Year,,492.05,No,Yes
+cust805,40,Female,1,86.82,Month-to-Month,Fiber Optic,86.82,Yes,Yes
+cust349,37,Male,0,98.45,One-Year,Fiber Optic,0.0,Yes,Yes
+cust219,40,Male,19,106.73,One-Year,DSL,2027.87,Yes,Yes
+cust605,49,Female,2,68.82,Month-to-Month,Fiber Optic,137.64,Yes,Yes
+cust646,42,Male,18,110.82,Month-to-Month,DSL,1994.76,No,Yes
+cust941,32,Female,4,35.12,One-Year,Fiber Optic,140.48,Yes,Yes
+cust306,46,Male,1,81.38,One-Year,Fiber Optic,81.38,Yes,Yes
+cust530,35,Female,37,37.62,Month-to-Month,Fiber Optic,1391.9399999999998,No,Yes
+cust810,36,Male,11,89.74,Month-to-Month,DSL,987.14,Yes,Yes
+cust475,61,Male,1,79.2,Month-to-Month,Fiber Optic,79.2,Yes,Yes
+cust599,40,Female,3,95.83,Month-to-Month,Fiber Optic,287.49,Yes,Yes
+cust156,37,Female,67,90.73,One-Year,DSL,6078.91,No,Yes
+cust904,57,Male,9,85.54,Month-to-Month,DSL,769.86,No,Yes
+cust674,41,Male,13,65.79,Month-to-Month,,855.2700000000001,No,Yes
+cust406,51,Male,74,91.06,Month-to-Month,Fiber Optic,6738.4400000000005,No,Yes
+cust380,36,Male,6,55.29,Two-Year,DSL,331.74,No,Yes
+cust101,30,Male,3,104.29,Month-to-Month,DSL,312.87,Yes,Yes
+cust387,48,Female,0,99.55,Two-Year,,0.0,No,Yes
+cust236,51,Female,35,101.85,Month-to-Month,DSL,3564.75,No,Yes
+cust468,52,Female,11,55.92,Month-to-Month,DSL,615.12,Yes,Yes
+cust241,37,Male,26,53.08,Month-to-Month,DSL,1380.08,Yes,Yes
+cust126,66,Female,0,86.14,Two-Year,Fiber Optic,0.0,Yes,Yes
+cust427,35,Male,30,114.19,Month-to-Month,,3425.7,No,Yes
+cust335,54,Female,20,97.52,Month-to-Month,,1950.4,No,Yes
+cust600,48,Female,41,104.2,Month-to-Month,DSL,4272.2,No,Yes
+cust484,47,Female,4,110.85,Month-to-Month,DSL,443.4,Yes,Yes
+cust155,47,Female,6,70.93,Month-to-Month,DSL,425.58,No,Yes
+cust359,48,Male,29,32.74,Month-to-Month,DSL,949.46,Yes,Yes
+cust378,46,Female,4,40.04,Month-to-Month,Fiber Optic,160.16,Yes,Yes
+cust237,24,Female,6,59.36,Month-to-Month,Fiber Optic,356.16,No,Yes
+cust838,35,Female,15,87.03,Month-to-Month,DSL,1305.45,Yes,Yes
+cust846,49,Female,50,42.11,Month-to-Month,Fiber Optic,2105.5,Yes,Yes
+cust322,50,Female,6,106.06,Two-Year,DSL,636.36,Yes,Yes
+cust159,33,Male,17,114.75,Two-Year,,1950.75,No,Yes
+cust383,23,Male,2,102.13,One-Year,,204.26,No,Yes
+cust990,45,Male,1,83.57,One-Year,Fiber Optic,83.57,Yes,Yes
+cust772,39,Male,67,118.12,Month-to-Month,Fiber Optic,7914.04,Yes,Yes
+cust198,46,Male,9,109.46,One-Year,DSL,985.14,Yes,Yes
+cust698,32,Male,10,34.62,One-Year,Fiber Optic,346.2,Yes,Yes
+cust882,39,Female,42,103.12,Month-to-Month,DSL,4331.04,No,Yes
+cust986,33,Male,4,96.09,Month-to-Month,Fiber Optic,384.36,Yes,Yes
+cust299,53,Female,3,74.07,Month-to-Month,Fiber Optic,222.21,No,Yes
+cust362,60,Male,37,75.95,One-Year,,2810.15,No,Yes
+cust489,61,Female,38,102.09,Month-to-Month,DSL,3879.42,No,Yes
+cust892,50,Female,8,82.06,Month-to-Month,DSL,656.48,Yes,Yes
+cust535,38,Female,13,64.29,One-Year,,835.7700000000001,No,Yes
+cust613,47,Male,7,81.57,One-Year,DSL,570.99,No,Yes
+cust596,39,Male,23,77.82,Month-to-Month,Fiber Optic,1789.86,No,Yes
+cust560,40,Male,14,36.91,Month-to-Month,,516.74,No,Yes
+cust532,28,Female,2,73.39,Month-to-Month,DSL,146.78,Yes,Yes
+cust663,44,Female,6,34.56,Month-to-Month,,207.36,No,Yes
+cust569,26,Female,11,39.53,Month-to-Month,,434.83,No,Yes
+cust273,56,Female,32,99.93,Month-to-Month,,3197.76,No,Yes
+cust77,45,Female,23,53.82,Month-to-Month,Fiber Optic,1237.86,No,Yes
+cust650,51,Female,2,31.49,Two-Year,Fiber Optic,62.98,No,Yes
+cust556,40,Female,5,40.47,Month-to-Month,,202.35,No,Yes
+cust718,46,Male,8,47.41,One-Year,Fiber Optic,379.28,Yes,Yes
+cust405,40,Female,14,85.03,Month-to-Month,DSL,1190.42,Yes,Yes
+cust79,45,Male,22,103.34,One-Year,Fiber Optic,2273.48,Yes,Yes
+cust912,47,Female,27,78.72,Month-to-Month,Fiber Optic,2125.44,Yes,Yes
+cust191,40,Male,13,61.94,Month-to-Month,DSL,805.22,No,Yes
+cust783,48,Female,3,99.17,Month-to-Month,Fiber Optic,297.51,Yes,Yes
+cust93,37,Female,24,33.51,Month-to-Month,Fiber Optic,804.24,Yes,Yes
+cust364,49,Male,21,111.95,One-Year,Fiber Optic,2350.9500000000003,Yes,Yes
+cust456,37,Male,22,111.83,Month-to-Month,,2460.26,No,Yes
+cust676,37,Female,3,78.98,Two-Year,DSL,236.94,Yes,Yes
+cust801,54,Female,75,31.23,Two-Year,DSL,2342.25,No,Yes
+cust353,53,Female,11,83.72,Two-Year,Fiber Optic,920.92,Yes,Yes
+cust742,32,Male,78,101.44,Two-Year,,7912.32,No,Yes
+cust476,42,Female,6,111.22,Month-to-Month,,667.3199999999999,No,Yes
+cust593,49,Female,33,86.68,Month-to-Month,,2860.44,No,Yes
+cust550,38,Male,8,89.08,Month-to-Month,DSL,712.64,Yes,Yes
+cust656,45,Male,23,105.15,Month-to-Month,DSL,2418.4500000000003,Yes,Yes
+cust645,42,Male,6,98.16,Month-to-Month,Fiber Optic,588.96,No,Yes
+cust238,46,Male,0,56.94,Month-to-Month,,0.0,No,Yes
+cust62,43,Male,1,64.45,One-Year,,64.45,No,Yes
+cust942,53,Male,64,98.99,One-Year,Fiber Optic,6335.36,No,Yes
+cust866,41,Female,0,37.66,Month-to-Month,Fiber Optic,0.0,Yes,Yes
+cust890,56,Female,15,86.92,Two-Year,,1303.8,No,Yes
+cust305,44,Male,19,42.71,Month-to-Month,DSL,811.49,Yes,Yes
+cust995,34,Female,1,78.63,Month-to-Month,DSL,78.63,No,Yes
+cust434,52,Female,13,83.57,Month-to-Month,,1086.41,No,Yes
+cust688,41,Female,33,50.35,Two-Year,DSL,1661.55,No,Yes
+cust43,43,Male,2,83.74,Month-to-Month,,167.48,No,Yes
+cust41,52,Male,12,111.74,One-Year,Fiber Optic,1340.88,Yes,Yes
+cust510,36,Female,75,117.28,One-Year,DSL,8796.0,No,Yes
+cust448,35,Male,3,35.0,Two-Year,,105.0,No,Yes
+cust946,34,Male,11,65.63,Month-to-Month,DSL,721.93,No,Yes
+cust248,38,Male,19,60.84,Month-to-Month,,1155.96,No,Yes
+cust125,50,Male,3,98.79,Month-to-Month,DSL,296.37,No,Yes
+cust92,54,Male,18,80.16,Month-to-Month,,1442.88,No,Yes
+cust902,41,Female,41,55.61,Month-to-Month,,2280.01,No,Yes
+cust492,59,Female,4,71.76,Two-Year,,287.04,No,Yes
+cust97,47,Male,11,109.93,One-Year,,1209.23,No,Yes
+cust356,34,Male,9,65.81,One-Year,Fiber Optic,592.29,No,Yes
+cust464,47,Female,1,104.79,Two-Year,Fiber Optic,104.79,Yes,Yes
+cust339,49,Female,24,38.44,Month-to-Month,DSL,922.56,Yes,Yes
+cust829,40,Female,26,101.3,Two-Year,,2633.8,No,Yes
+cust342,47,Male,28,33.61,One-Year,,941.08,No,Yes
+cust927,39,Male,1,110.81,Month-to-Month,DSL,110.81,Yes,Yes
+cust6,42,Female,16,119.75,Two-Year,DSL,1916.0,Yes,Yes
+cust67,44,Female,6,92.31,One-Year,Fiber Optic,553.86,Yes,Yes
+cust269,40,Female,10,71.26,Month-to-Month,,712.6,No,Yes
+cust508,36,Male,64,118.52,Month-to-Month,,7585.28,No,Yes
+cust358,42,Male,1,45.36,Two-Year,Fiber Optic,45.36,Yes,Yes
+cust540,39,Female,50,57.3,Month-to-Month,Fiber Optic,2865.0,Yes,Yes
+cust113,45,Female,88,51.73,Month-to-Month,Fiber Optic,4552.24,Yes,Yes
+cust881,70,Male,21,82.44,Two-Year,Fiber Optic,1731.24,No,Yes
+cust950,47,Female,3,114.13,One-Year,Fiber Optic,342.39,Yes,Yes
+cust961,51,Female,23,119.8,Month-to-Month,Fiber Optic,2755.4,Yes,Yes
+cust844,48,Female,1,80.09,Two-Year,,80.09,No,Yes
+cust572,61,Male,28,90.82,Month-to-Month,DSL,2542.96,Yes,Yes
+cust34,34,Female,1,90.4,Two-Year,Fiber Optic,90.4,Yes,Yes
+cust99,45,Male,44,111.09,Two-Year,,4887.96,No,Yes
+cust13,47,Male,2,63.26,Two-Year,,126.52,No,Yes
+cust747,46,Female,2,72.09,Month-to-Month,Fiber Optic,144.18,Yes,Yes
+cust771,52,Male,0,41.34,Month-to-Month,Fiber Optic,0.0,Yes,Yes
+cust245,32,Female,21,48.95,Month-to-Month,DSL,1027.95,Yes,Yes
+cust860,51,Male,20,31.16,Month-to-Month,DSL,623.2,No,Yes
+cust135,35,Male,18,82.29,One-Year,Fiber Optic,1481.22,No,Yes
+cust446,51,Female,5,103.57,Month-to-Month,Fiber Optic,517.8499999999999,Yes,Yes
+cust564,41,Female,3,105.03,Two-Year,Fiber Optic,315.09000000000003,Yes,Yes
+cust39,31,Female,2,110.14,Month-to-Month,,220.28,No,Yes
+cust282,51,Female,18,74.05,Month-to-Month,,1332.9,No,Yes
+cust686,52,Female,5,102.51,Month-to-Month,DSL,512.5500000000001,Yes,Yes
+cust493,45,Male,60,40.68,Month-to-Month,,2440.8,No,Yes
+cust415,48,Male,29,30.93,Month-to-Month,DSL,896.97,Yes,Yes
+cust410,50,Male,32,109.64,Month-to-Month,DSL,3508.48,No,Yes
+cust96,30,Male,3,110.81,One-Year,Fiber Optic,332.43,Yes,Yes
+cust949,44,Female,24,67.11,One-Year,,1610.64,No,Yes
+cust417,60,Female,8,93.56,Month-to-Month,Fiber Optic,748.48,No,Yes
+cust714,48,Female,1,35.1,Month-to-Month,DSL,35.1,Yes,Yes
+cust705,29,Male,22,81.48,Month-to-Month,Fiber Optic,1792.5600000000002,Yes,Yes
+cust877,39,Male,3,69.97,Month-to-Month,DSL,209.91,Yes,Yes
+cust757,49,Male,6,104.09,Month-to-Month,Fiber Optic,624.54,No,Yes
+cust317,51,Female,5,63.71,Month-to-Month,,318.55,No,Yes
+cust602,35,Male,6,104.96,Month-to-Month,Fiber Optic,629.76,Yes,Yes
+cust857,36,Female,24,94.09,Two-Year,DSL,2258.16,No,Yes
+cust789,44,Female,24,49.68,Month-to-Month,DSL,1192.32,Yes,Yes
+cust803,45,Female,0,53.27,Month-to-Month,DSL,0.0,Yes,Yes
+cust437,61,Female,1,70.2,One-Year,Fiber Optic,70.2,No,Yes
+cust551,45,Male,30,117.4,Two-Year,DSL,3522.0,Yes,Yes
+cust420,45,Female,7,58.07,Month-to-Month,Fiber Optic,406.49,Yes,Yes
+cust488,34,Female,31,104.39,Month-to-Month,DSL,3236.09,Yes,Yes
+cust819,45,Female,4,84.08,Month-to-Month,DSL,336.32,Yes,Yes
+cust924,37,Male,26,52.71,Month-to-Month,DSL,1370.46,No,Yes
+cust467,51,Male,19,77.83,One-Year,,1478.77,No,Yes
+cust323,36,Female,36,101.63,Month-to-Month,Fiber Optic,3658.68,Yes,Yes
+cust8,52,Female,6,58.9,One-Year,,353.4,No,Yes
+cust975,40,Male,5,88.39,Month-to-Month,Fiber Optic,441.95,Yes,Yes
+cust176,53,Female,66,100.12,Two-Year,Fiber Optic,6607.92,No,Yes
+cust440,44,Female,30,72.39,Month-to-Month,Fiber Optic,2171.7,Yes,Yes
+cust740,55,Male,6,118.96,Month-to-Month,DSL,713.76,No,Yes
+cust117,44,Male,13,32.02,One-Year,,416.2600000000001,No,Yes
+cust226,55,Female,2,72.22,One-Year,Fiber Optic,144.44,Yes,Yes
+cust915,44,Female,3,39.49,Two-Year,Fiber Optic,118.47,Yes,Yes
+cust708,62,Male,19,43.85,Month-to-Month,Fiber Optic,833.15,No,Yes
+cust424,54,Male,0,53.49,Two-Year,DSL,0.0,Yes,Yes
+cust264,34,Female,13,71.36,Two-Year,Fiber Optic,927.68,No,Yes
+cust748,37,Male,10,85.75,One-Year,DSL,857.5,Yes,Yes
+cust585,46,Female,8,75.22,Month-to-Month,DSL,601.76,No,Yes
+cust3,51,Female,2,63.79,Month-to-Month,Fiber Optic,127.58,No,Yes
+cust807,47,Male,49,79.33,One-Year,Fiber Optic,3887.17,No,Yes
+cust601,52,Female,15,43.18,Month-to-Month,,647.7,No,Yes
+cust279,45,Male,5,110.06,One-Year,Fiber Optic,550.3,Yes,Yes
+cust511,47,Female,28,68.81,Month-to-Month,Fiber Optic,1926.68,No,Yes
+cust179,42,Male,15,105.43,One-Year,DSL,1581.45,No,Yes
+cust584,67,Female,4,50.82,Two-Year,Fiber Optic,203.28,Yes,Yes
+cust934,23,Male,5,47.09,One-Year,Fiber Optic,235.45,Yes,Yes
+cust632,60,Female,83,89.36,Month-to-Month,Fiber Optic,7416.88,Yes,Yes
+cust497,34,Female,16,83.54,Month-to-Month,,1336.64,No,Yes
+cust733,49,Male,22,96.42,One-Year,,2121.24,No,Yes
+cust481,43,Female,0,103.89,Month-to-Month,Fiber Optic,0.0,No,Yes
+cust623,63,Male,10,90.4,One-Year,DSL,904.0,Yes,Yes
+cust452,54,Male,3,67.01,Month-to-Month,,201.03000000000003,No,Yes
+cust398,58,Male,12,51.1,One-Year,Fiber Optic,613.2,No,Yes
+cust400,57,Male,14,32.71,Two-Year,Fiber Optic,457.94,No,Yes
+cust926,29,Female,3,85.23,Month-to-Month,,255.69,No,Yes
+cust778,42,Female,6,84.28,Month-to-Month,Fiber Optic,505.68,Yes,Yes
+cust242,43,Female,3,61.98,One-Year,,185.94,No,Yes
+cust500,31,Male,18,89.28,Month-to-Month,,1607.04,No,Yes
+cust94,41,Male,23,90.02,Month-to-Month,,2070.46,No,Yes
+cust169,42,Female,19,46.14,One-Year,DSL,876.66,No,Yes
+cust862,29,Male,1,106.6,One-Year,,106.6,No,Yes
+cust74,60,Male,26,92.52,Month-to-Month,DSL,2405.52,No,Yes
+cust896,51,Female,49,108.56,One-Year,Fiber Optic,5319.4400000000005,Yes,Yes
+cust494,36,Female,105,118.25,Month-to-Month,DSL,12416.25,Yes,Yes
+cust784,51,Female,57,50.36,Month-to-Month,Fiber Optic,2870.52,No,Yes
+cust534,32,Male,0,49.91,One-Year,Fiber Optic,0.0,Yes,Yes
+cust785,50,Male,26,92.31,Month-to-Month,Fiber Optic,2400.06,Yes,Yes
+cust152,48,Female,4,94.36,One-Year,Fiber Optic,377.44,Yes,Yes
+cust516,52,Female,20,71.21,Two-Year,,1424.1999999999998,No,Yes
+cust188,44,Male,3,112.92,One-Year,,338.76,No,Yes
+cust609,27,Female,14,105.98,Two-Year,DSL,1483.72,Yes,Yes
+cust69,48,Female,17,114.52,Month-to-Month,Fiber Optic,1946.84,Yes,Yes
+cust664,39,Female,32,33.55,One-Year,,1073.6,No,Yes
+cust752,31,Female,8,80.78,One-Year,Fiber Optic,646.24,Yes,Yes
+cust612,44,Male,5,57.76,Month-to-Month,,288.8,No,Yes
+cust956,56,Female,2,35.58,Two-Year,DSL,71.16,No,Yes
+cust670,55,Female,24,100.86,Month-to-Month,,2420.64,No,Yes
+cust987,60,Male,38,48.79,Month-to-Month,,1854.02,No,Yes
+cust232,47,Male,63,98.34,Two-Year,DSL,6195.42,No,Yes
+cust687,42,Male,24,50.19,One-Year,,1204.56,No,Yes
+cust505,38,Female,31,56.67,Month-to-Month,DSL,1756.77,Yes,Yes
+cust825,40,Female,6,56.4,Month-to-Month,DSL,338.4,No,Yes
+cust577,47,Female,44,44.11,Month-to-Month,Fiber Optic,1940.84,Yes,Yes
+cust907,31,Male,4,41.3,One-Year,,165.2,No,Yes
+cust479,75,Female,15,89.28,Month-to-Month,DSL,1339.2,Yes,Yes
+cust418,46,Male,9,86.04,One-Year,,774.36,No,Yes
+cust425,51,Male,45,60.9,Month-to-Month,DSL,2740.5,No,Yes
+cust196,48,Male,4,84.62,One-Year,,338.48,No,Yes
+cust501,54,Female,1,77.91,Month-to-Month,DSL,77.91,No,Yes
+cust352,59,Female,13,68.7,Month-to-Month,,893.1,No,Yes
+cust374,54,Female,7,70.41,One-Year,,492.87,No,Yes
+cust903,45,Female,2,69.87,Month-to-Month,DSL,139.74,No,Yes
+cust105,43,Male,8,36.05,Month-to-Month,DSL,288.4,Yes,Yes
+cust940,39,Female,5,58.42,Month-to-Month,,292.1,No,Yes
+cust207,50,Male,17,119.75,Month-to-Month,DSL,2035.75,Yes,Yes
+cust895,58,Male,7,97.81,Month-to-Month,Fiber Optic,684.6700000000001,Yes,Yes
+cust83,59,Male,11,37.95,Month-to-Month,,417.4500000000001,No,Yes
+cust150,47,Male,7,88.46,Two-Year,DSL,619.2199999999999,Yes,Yes
+cust976,26,Male,0,115.91,Month-to-Month,,0.0,No,Yes
+cust528,45,Female,5,59.54,Month-to-Month,,297.7,No,Yes
+cust154,47,Female,8,34.8,One-Year,DSL,278.4,Yes,Yes
+cust186,52,Male,41,81.53,Month-to-Month,DSL,3342.73,Yes,Yes
+cust37,47,Male,18,45.29,Month-to-Month,DSL,815.22,Yes,Yes
+cust549,48,Female,17,44.51,Month-to-Month,,756.67,No,Yes
+cust220,45,Male,52,114.42,Month-to-Month,,5949.84,No,Yes
+cust345,40,Female,7,51.43,Two-Year,Fiber Optic,360.01,No,Yes
+cust932,63,Female,8,87.69,Two-Year,,701.52,No,Yes
+cust999,39,Male,68,65.67,One-Year,,4465.56,No,Yes
+cust160,51,Female,2,45.06,Month-to-Month,DSL,90.12,Yes,Yes
+cust197,36,Male,28,109.29,One-Year,Fiber Optic,3060.1200000000003,Yes,Yes
+cust7,60,Male,14,80.32,One-Year,,1124.48,No,Yes
+cust701,39,Female,3,60.1,Month-to-Month,Fiber Optic,180.3,Yes,Yes
+cust544,59,Male,9,91.55,Month-to-Month,Fiber Optic,823.9499999999999,No,Yes
+cust88,48,Male,11,53.36,One-Year,DSL,586.96,Yes,Yes
+cust727,45,Female,23,90.51,Two-Year,,2081.73,No,Yes
+cust369,45,Female,18,79.6,Two-Year,Fiber Optic,1432.8,No,Yes
+cust715,44,Male,15,33.12,Month-to-Month,,496.8,No,Yes
+cust165,54,Male,101,54.78,Month-to-Month,,5532.78,No,Yes
+cust268,30,Male,1,67.67,Month-to-Month,DSL,67.67,Yes,Yes
+cust251,32,Female,1,37.45,Month-to-Month,DSL,37.45,Yes,Yes
+cust416,37,Male,14,94.44,Month-to-Month,,1322.16,No,Yes
+cust880,56,Female,4,119.6,Two-Year,Fiber Optic,478.4,Yes,Yes
+cust151,47,Female,6,102.4,Month-to-Month,Fiber Optic,614.4000000000001,No,Yes
+cust506,40,Female,47,114.45,Month-to-Month,DSL,5379.150000000001,Yes,Yes
+cust936,39,Male,18,80.08,Month-to-Month,,1441.44,No,Yes
+cust833,34,Female,60,56.62,Month-to-Month,DSL,3397.2,Yes,Yes
+cust52,41,Male,8,48.2,One-Year,DSL,385.6,No,Yes
+cust615,69,Male,5,33.53,Two-Year,Fiber Optic,167.65,Yes,Yes
+cust124,30,Female,9,31.29,Month-to-Month,Fiber Optic,281.61,Yes,Yes
+cust470,39,Male,63,56.99,Two-Year,,3590.3700000000003,No,Yes
+cust70,38,Male,0,87.27,One-Year,,0.0,No,Yes
+cust407,34,Male,2,58.58,One-Year,Fiber Optic,117.16,Yes,Yes
+cust391,36,Female,2,113.62,Month-to-Month,Fiber Optic,227.24,Yes,Yes
+cust820,55,Male,41,60.69,One-Year,,2488.29,No,Yes
+cust33,44,Female,20,42.63,Month-to-Month,Fiber Optic,852.6,Yes,Yes
+cust396,40,Female,18,77.23,Month-to-Month,DSL,1390.14,Yes,Yes
+cust681,52,Male,36,63.72,Month-to-Month,DSL,2293.92,No,Yes
+cust483,28,Male,11,89.13,Month-to-Month,,980.43,No,Yes
+cust64,33,Female,3,89.36,Month-to-Month,Fiber Optic,268.08,Yes,Yes
+cust666,46,Male,8,65.36,Month-to-Month,,522.88,No,Yes
+cust921,55,Female,3,33.74,Month-to-Month,DSL,101.22,Yes,Yes
+cust770,63,Female,6,39.26,Month-to-Month,,235.56,No,Yes
+cust304,51,Female,2,89.55,Month-to-Month,,179.1,No,Yes
+cust485,37,Male,1,65.96,Month-to-Month,Fiber Optic,65.96,Yes,Yes
+cust769,38,Male,20,107.9,One-Year,DSL,2158.0,Yes,Yes
+cust659,46,Female,50,50.83,Month-to-Month,DSL,2541.5,No,Yes
+cust873,31,Female,28,58.34,Month-to-Month,DSL,1633.52,Yes,Yes
+cust23,45,Male,10,102.4,Month-to-Month,DSL,1024.0,Yes,Yes
+cust724,52,Female,30,50.7,Two-Year,DSL,1521.0,No,Yes
+cust909,51,Female,22,39.72,Two-Year,DSL,873.8399999999999,No,Yes
+cust98,47,Female,3,59.28,Month-to-Month,Fiber Optic,177.84,Yes,Yes
+cust75,18,Female,21,49.68,Month-to-Month,Fiber Optic,1043.28,Yes,Yes
+cust314,53,Female,1,117.29,Month-to-Month,Fiber Optic,117.29,Yes,Yes
+cust328,52,Female,48,108.67,One-Year,,5216.16,No,Yes
+cust958,49,Female,2,75.53,Month-to-Month,DSL,151.06,No,Yes
+cust513,42,Male,12,34.53,Month-to-Month,Fiber Optic,414.36,Yes,Yes
+cust15,27,Male,14,95.05,Month-to-Month,Fiber Optic,1330.7,Yes,Yes
+cust208,50,Male,62,32.7,Month-to-Month,Fiber Optic,2027.4,Yes,Yes
+cust432,24,Female,5,38.31,Two-Year,DSL,191.55,Yes,Yes
+cust635,34,Female,17,114.47,Month-to-Month,DSL,1945.99,Yes,Yes
+cust254,55,Female,1,80.71,One-Year,DSL,80.71,Yes,Yes
+cust571,45,Male,14,67.19,Month-to-Month,,940.66,No,Yes
+cust710,61,Female,35,54.14,Month-to-Month,,1894.9,No,Yes
+cust439,27,Male,57,52.2,Month-to-Month,Fiber Optic,2975.4,Yes,Yes
+cust454,50,Male,20,109.61,Two-Year,Fiber Optic,2192.2,Yes,Yes
+cust590,36,Male,56,114.09,Two-Year,Fiber Optic,6389.04,No,Yes
+cust815,55,Male,20,80.75,Two-Year,,1615.0,No,Yes
+cust201,48,Female,17,107.67,Month-to-Month,Fiber Optic,1830.39,Yes,Yes
+cust677,33,Male,30,54.77,One-Year,,1643.1,No,Yes
+cust491,44,Female,64,81.92,Two-Year,DSL,5242.88,No,Yes
+cust185,42,Female,6,43.83,Month-to-Month,,262.98,No,Yes
+cust283,60,Female,8,96.75,Two-Year,,774.0,No,Yes
+cust943,51,Male,19,93.19,Month-to-Month,,1770.61,No,Yes
+cust885,51,Male,2,66.24,Month-to-Month,Fiber Optic,132.48,Yes,Yes
+cust89,39,Female,7,33.03,Two-Year,Fiber Optic,231.21,Yes,Yes
+cust130,39,Female,46,85.76,Month-to-Month,Fiber Optic,3944.96,Yes,Yes
+cust567,24,Male,60,63.61,Month-to-Month,DSL,3816.6,No,Yes
+cust547,50,Male,50,72.8,Month-to-Month,DSL,3640.0,Yes,Yes
+cust120,52,Female,66,80.96,Month-to-Month,Fiber Optic,5343.36,Yes,Yes
+cust131,29,Male,2,80.71,Month-to-Month,,161.42,No,Yes
+cust414,57,Female,6,116.7,One-Year,,700.2,No,Yes
+cust107,63,Male,10,119.9,Month-to-Month,,1199.0,No,Yes
+cust554,47,Female,8,36.16,Month-to-Month,Fiber Optic,289.28,Yes,Yes
+cust104,36,Female,20,81.9,Month-to-Month,,1638.0,No,Yes
+cust389,54,Male,8,90.97,One-Year,DSL,727.76,Yes,Yes
+cust578,52,Female,10,104.46,Month-to-Month,,1044.6,No,Yes
+cust922,34,Male,0,74.83,One-Year,Fiber Optic,0.0,No,Yes
+cust933,30,Male,2,71.96,Month-to-Month,,143.92,No,Yes
+cust610,59,Male,1,73.56,Month-to-Month,Fiber Optic,73.56,Yes,Yes
+cust616,46,Female,0,54.48,One-Year,,0.0,No,Yes
+cust110,44,Male,18,102.6,One-Year,,1846.8,No,Yes
+cust14,25,Female,8,71.78,One-Year,,574.24,No,Yes
+cust680,57,Female,0,111.38,Month-to-Month,,0.0,No,Yes
+cust55,55,Female,20,49.34,One-Year,,986.8,No,Yes
+cust54,51,Male,0,51.74,One-Year,Fiber Optic,0.0,No,Yes
+cust381,36,Male,9,45.61,Month-to-Month,Fiber Optic,410.49,Yes,Yes
+cust190,29,Male,79,83.36,One-Year,,6585.44,No,Yes
+cust875,44,Female,21,45.92,Month-to-Month,DSL,964.32,Yes,Yes
+cust604,58,Female,0,106.02,Two-Year,Fiber Optic,0.0,Yes,Yes
+cust761,39,Male,18,103.65,Month-to-Month,Fiber Optic,1865.7,No,Yes
+cust557,40,Female,4,85.15,One-Year,,340.6,No,Yes
+cust203,55,Male,78,47.7,Month-to-Month,Fiber Optic,3720.6,Yes,Yes
+cust808,40,Female,11,45.72,Month-to-Month,,502.92,No,Yes
+cust669,18,Female,38,31.02,Month-to-Month,Fiber Optic,1178.76,Yes,Yes
+cust202,50,Male,40,109.75,Month-to-Month,,4390.0,No,Yes
+cust685,32,Male,11,104.91,Two-Year,Fiber Optic,1154.01,Yes,Yes
+cust800,45,Female,22,71.88,Month-to-Month,,1581.36,No,Yes
+cust840,42,Female,19,31.46,Month-to-Month,DSL,597.74,No,Yes
+cust441,48,Male,94,89.57,One-Year,Fiber Optic,8419.58,No,Yes
+cust295,48,Female,34,115.63,One-Year,Fiber Optic,3931.42,Yes,Yes
+cust925,56,Female,14,57.7,Month-to-Month,,807.8000000000001,No,Yes
+cust388,63,Female,9,51.32,Month-to-Month,DSL,461.88,Yes,Yes
+cust619,49,Male,5,116.92,Month-to-Month,Fiber Optic,584.6,Yes,Yes
+cust20,30,Female,2,89.55,Month-to-Month,Fiber Optic,179.1,No,Yes
+cust4,60,Female,8,102.34,One-Year,DSL,818.72,Yes,Yes
+cust908,52,Male,39,116.71,One-Year,Fiber Optic,4551.69,Yes,Yes
+cust294,53,Female,25,47.68,One-Year,Fiber Optic,1192.0,No,Yes
+cust763,70,Female,1,110.09,One-Year,,110.09,No,Yes
+cust722,27,Female,10,110.61,Month-to-Month,Fiber Optic,1106.1,Yes,Yes
+cust463,38,Male,24,68.7,Month-to-Month,Fiber Optic,1648.8000000000002,No,Yes
+cust451,44,Male,17,89.72,Month-to-Month,Fiber Optic,1525.24,Yes,Yes
+cust253,66,Male,10,57.22,One-Year,DSL,572.2,Yes,Yes
+cust563,53,Female,0,66.29,Two-Year,DSL,0.0,No,Yes
+cust503,31,Male,79,45.53,Month-to-Month,,3596.87,No,Yes
+cust953,32,Female,40,82.61,Month-to-Month,,3304.4,No,Yes
+cust375,66,Male,20,51.37,Month-to-Month,,1027.4,No,Yes
+cust813,59,Male,17,110.13,One-Year,DSL,1872.21,No,Yes
+cust11,40,Female,1,63.53,Month-to-Month,Fiber Optic,63.53,Yes,Yes
+cust285,66,Male,2,73.49,Two-Year,DSL,146.98,No,Yes
+cust31,38,Male,34,102.27,Month-to-Month,DSL,3477.18,No,Yes
+cust411,52,Female,2,96.52,One-Year,,193.04,No,Yes
+cust252,54,Female,10,73.61,One-Year,DSL,736.1,Yes,Yes
+cust678,62,Female,26,93.85,One-Year,,2440.1,No,Yes
+cust861,47,Male,55,78.63,Month-to-Month,,4324.65,No,Yes
+cust984,44,Male,31,65.26,Month-to-Month,DSL,2023.06,Yes,Yes
+cust595,55,Male,8,97.72,Month-to-Month,,781.76,No,Yes
+cust394,63,Female,10,31.72,Two-Year,Fiber Optic,317.2,Yes,Yes
+cust834,37,Male,36,30.1,Two-Year,DSL,1083.6,No,Yes
+cust586,47,Female,38,95.83,Month-to-Month,Fiber Optic,3641.54,Yes,Yes
+cust231,37,Male,4,117.58,One-Year,Fiber Optic,470.32,Yes,Yes
+cust271,59,Female,5,81.69,Month-to-Month,Fiber Optic,408.45,Yes,Yes
+cust108,46,Female,7,59.4,Month-to-Month,DSL,415.8,No,Yes
+cust962,58,Male,4,70.66,One-Year,Fiber Optic,282.64,Yes,Yes
+cust490,53,Female,5,39.4,Month-to-Month,,197.0,No,Yes
+cust827,60,Female,1,92.8,Month-to-Month,DSL,92.8,Yes,Yes
+cust327,56,Female,11,49.64,Month-to-Month,,546.04,No,Yes
+cust210,83,Male,2,86.04,Month-to-Month,DSL,172.08,No,Yes
+cust809,57,Female,5,56.63,Month-to-Month,DSL,283.15000000000003,Yes,Yes
+cust655,70,Male,35,32.13,Month-to-Month,DSL,1124.5500000000002,No,Yes
+cust174,48,Female,15,45.28,Two-Year,Fiber Optic,679.2,No,Yes
+cust90,50,Male,17,109.13,One-Year,Fiber Optic,1855.21,Yes,Yes
+cust739,61,Female,6,44.06,Month-to-Month,Fiber Optic,264.36,Yes,Yes
+cust618,52,Male,68,118.05,Month-to-Month,Fiber Optic,8027.4,Yes,Yes
+cust319,48,Male,7,63.07,Month-to-Month,Fiber Optic,441.49,Yes,Yes
+cust82,48,Female,31,46.9,Two-Year,Fiber Optic,1453.9,No,Yes
+cust634,40,Male,9,40.83,Two-Year,,367.47,No,Yes
+cust215,41,Female,1,60.18,Month-to-Month,DSL,60.18,Yes,Yes
+cust313,53,Male,24,113.44,Two-Year,Fiber Optic,2722.56,No,Yes
+cust745,50,Female,3,107.95,One-Year,Fiber Optic,323.85,No,Yes
+cust624,58,Male,7,102.49,Month-to-Month,Fiber Optic,717.43,Yes,Yes
+cust270,46,Male,6,95.25,Two-Year,DSL,571.5,Yes,Yes
+cust103,41,Female,20,52.41,Month-to-Month,Fiber Optic,1048.1999999999998,Yes,Yes
+cust850,39,Female,9,88.48,Two-Year,DSL,796.32,No,Yes
+cust134,49,Female,43,82.82,One-Year,,3561.26,No,Yes
+cust142,58,Female,8,83.72,One-Year,,669.76,No,Yes
+cust891,53,Female,8,41.55,One-Year,,332.4,No,Yes
+cust332,36,Female,23,108.36,One-Year,Fiber Optic,2492.28,Yes,Yes
+cust272,30,Male,6,90.05,Month-to-Month,,540.3,No,Yes
+cust1,49,Male,4,88.35,Month-to-Month,Fiber Optic,353.4,Yes,Yes
+cust991,47,Female,9,108.47,Two-Year,,976.23,No,Yes
+cust523,38,Female,0,103.86,Two-Year,,0.0,No,Yes
+cust979,29,Female,36,84.16,Month-to-Month,Fiber Optic,3029.76,Yes,Yes
+cust453,35,Female,33,66.22,Month-to-Month,,2185.26,No,Yes
+cust598,35,Male,21,68.56,Month-to-Month,DSL,1439.76,Yes,Yes
+cust143,28,Male,15,113.54,Two-Year,DSL,1703.1,Yes,Yes
+cust320,43,Female,2,37.83,Month-to-Month,,75.66,No,Yes
+cust777,37,Male,7,83.48,Month-to-Month,DSL,584.36,Yes,Yes
+cust133,34,Female,7,107.8,Month-to-Month,Fiber Optic,754.6,Yes,Yes
+cust260,52,Male,62,86.16,One-Year,,5341.92,No,Yes
+cust702,55,Male,7,65.51,Month-to-Month,,458.5700000000001,No,Yes
+cust738,54,Female,2,119.33,One-Year,DSL,238.66,Yes,Yes
+cust617,46,Female,26,30.57,One-Year,,794.82,No,Yes
+cust963,46,Male,9,61.93,Month-to-Month,,557.37,No,Yes
+cust316,45,Female,0,42.87,Month-to-Month,Fiber Optic,0.0,No,Yes
+cust368,45,Female,22,33.14,Two-Year,Fiber Optic,729.08,No,Yes
+cust937,34,Female,5,62.28,One-Year,Fiber Optic,311.4,Yes,Yes
+cust164,36,Female,10,88.38,One-Year,,883.8,No,Yes
+cust717,46,Female,7,92.74,One-Year,,649.18,No,Yes
+cust627,35,Female,33,100.5,One-Year,DSL,3316.5,Yes,Yes
+cust913,47,Male,11,37.74,Two-Year,Fiber Optic,415.14,Yes,Yes
+cust725,46,Female,6,67.02,One-Year,Fiber Optic,402.12,Yes,Yes
+cust426,58,Male,30,105.11,Month-to-Month,Fiber Optic,3153.3,Yes,Yes
+cust309,50,Male,0,49.68,One-Year,DSL,0.0,Yes,Yes
+cust703,37,Male,6,77.69,Two-Year,Fiber Optic,466.14,Yes,Yes
+cust354,43,Female,12,119.96,Month-to-Month,Fiber Optic,1439.52,No,Yes
+cust482,35,Male,3,80.99,Month-to-Month,DSL,242.97,Yes,Yes
+cust357,44,Male,9,104.48,Month-to-Month,DSL,940.32,Yes,Yes
+cust409,46,Male,29,115.24,Month-to-Month,,3341.96,No,Yes
+cust59,48,Female,25,46.91,One-Year,Fiber Optic,1172.75,No,Yes
+cust403,45,Female,29,113.99,Month-to-Month,,3305.71,No,Yes
+cust428,51,Male,12,46.72,Month-to-Month,DSL,560.64,Yes,Yes
+cust648,44,Female,25,65.38,Month-to-Month,,1634.5,No,Yes
+cust301,36,Male,6,50.68,One-Year,Fiber Optic,304.08,Yes,Yes
+cust222,26,Female,12,64.7,Two-Year,,776.4000000000001,No,Yes
+cust1000,50,Male,1,56.67,Month-to-Month,,56.67,No,Yes
+cust836,47,Male,34,49.61,One-Year,,1686.74,No,Yes
+cust123,59,Male,0,50.88,Month-to-Month,Fiber Optic,0.0,No,Yes
+cust73,44,Male,8,47.18,Month-to-Month,,377.44,No,Yes
+cust741,26,Male,11,117.96,One-Year,,1297.56,No,Yes
+cust303,52,Male,6,63.5,Month-to-Month,Fiber Optic,381.0,No,Yes
+cust647,18,Female,7,37.57,Two-Year,DSL,262.99,Yes,Yes
+cust116,48,Male,3,41.71,Month-to-Month,DSL,125.13,Yes,Yes
+cust504,50,Male,4,81.12,One-Year,DSL,324.48,Yes,Yes
+cust684,49,Female,70,68.35,Month-to-Month,Fiber Optic,4784.5,Yes,Yes
+cust899,57,Male,8,85.73,Month-to-Month,Fiber Optic,685.84,No,Yes
+cust723,31,Male,1,56.76,One-Year,Fiber Optic,56.76,Yes,Yes
+cust192,53,Female,39,34.68,Month-to-Month,Fiber Optic,1352.52,Yes,Yes
+cust204,55,Female,10,96.37,Month-to-Month,Fiber Optic,963.7,No,Yes
+cust351,48,Male,62,73.85,One-Year,DSL,4578.7,No,Yes
+cust591,45,Male,14,112.48,Month-to-Month,Fiber Optic,1574.72,Yes,Yes
+cust71,48,Female,2,59.21,Month-to-Month,Fiber Optic,118.42,Yes,Yes
+cust968,63,Male,0,64.85,Month-to-Month,,0.0,No,Yes
+cust170,37,Male,4,93.46,Month-to-Month,Fiber Optic,373.84,Yes,Yes
+cust141,47,Male,9,50.6,Month-to-Month,DSL,455.4,Yes,Yes
+cust793,47,Female,17,106.45,One-Year,,1809.65,No,Yes
+cust868,48,Female,13,64.2,Month-to-Month,Fiber Optic,834.6,Yes,Yes
+cust211,50,Female,38,117.6,One-Year,Fiber Optic,4468.8,No,Yes
+cust671,57,Male,25,57.58,Two-Year,,1439.5,No,Yes
+cust63,33,Male,15,103.96,One-Year,,1559.4,No,Yes
+cust395,56,Male,15,104.42,Month-to-Month,DSL,1566.3,No,Yes
+cust507,39,Male,57,103.69,Two-Year,DSL,5910.33,Yes,Yes
+cust989,42,Male,12,79.71,Month-to-Month,DSL,956.52,Yes,Yes
+cust603,53,Male,11,78.63,Month-to-Month,,864.93,No,Yes
+cust371,45,Male,2,105.53,Month-to-Month,,211.06,No,Yes
+cust408,43,Female,0,106.33,One-Year,DSL,0.0,Yes,Yes
+cust928,48,Male,0,102.89,Month-to-Month,Fiber Optic,0.0,Yes,Yes
+cust162,52,Female,19,92.18,Month-to-Month,Fiber Optic,1751.42,Yes,Yes
+cust537,36,Female,2,104.13,One-Year,,208.26,No,Yes
+cust457,43,Male,6,58.25,One-Year,DSL,349.5,Yes,Yes
+cust806,41,Female,27,68.38,One-Year,,1846.26,No,Yes
+cust370,37,Female,6,69.44,One-Year,,416.64,No,Yes
+cust24,30,Male,10,99.55,One-Year,Fiber Optic,995.5,Yes,Yes
+cust814,46,Female,19,81.92,Two-Year,,1556.48,No,Yes
+cust994,38,Male,4,102.27,One-Year,Fiber Optic,409.08,No,Yes
+cust466,42,Female,0,96.14,Two-Year,,0.0,No,Yes
+cust626,39,Male,24,66.02,One-Year,,1584.48,No,Yes
+cust48,55,Female,8,44.08,Two-Year,DSL,352.64,No,Yes
+cust199,45,Female,14,89.31,One-Year,Fiber Optic,1250.34,No,Yes
+cust280,41,Male,20,63.43,Month-to-Month,DSL,1268.6,No,Yes
+cust830,42,Female,18,90.87,One-Year,,1635.66,No,Yes
+cust679,54,Male,9,54.43,Month-to-Month,DSL,489.87,Yes,Yes
+cust758,46,Female,6,80.06,Month-to-Month,Fiber Optic,480.36,Yes,Yes
+cust859,39,Male,11,52.9,One-Year,DSL,581.9,Yes,Yes
+cust175,47,Female,5,31.72,Two-Year,Fiber Optic,158.6,Yes,Yes
+cust330,51,Female,66,53.69,One-Year,,3543.54,No,Yes
+cust607,37,Female,0,112.36,Month-to-Month,DSL,0.0,Yes,Yes
+cust22,42,Female,10,30.48,Month-to-Month,,304.8,No,Yes
+cust144,46,Female,3,113.62,Month-to-Month,,340.86,No,Yes
+cust372,49,Female,21,44.46,Two-Year,,933.66,No,Yes
+cust293,39,Male,5,41.34,One-Year,,206.7,No,Yes
+cust682,33,Male,0,79.49,Month-to-Month,DSL,0.0,No,Yes
+cust966,59,Female,14,109.49,Two-Year,,1532.86,No,Yes
+cust217,37,Female,11,117.78,Month-to-Month,,1295.58,No,Yes
+cust132,45,Female,62,86.22,Month-to-Month,DSL,5345.64,No,Yes
+cust622,49,Female,37,61.12,Month-to-Month,Fiber Optic,2261.44,No,Yes
+cust206,35,Male,28,102.24,One-Year,DSL,2862.72,Yes,Yes
+cust348,30,Female,20,71.97,Month-to-Month,Fiber Optic,1439.4,No,Yes
+cust764,44,Female,60,119.28,Month-to-Month,,7156.8,No,Yes
+cust787,53,Male,4,86.28,Two-Year,Fiber Optic,345.12,Yes,Yes
+cust732,35,Female,20,44.07,Month-to-Month,DSL,881.4,No,Yes
+cust802,39,Female,2,37.34,Month-to-Month,,74.68,No,Yes
+cust673,41,Male,58,82.95,Two-Year,,4811.1,No,Yes
+cust589,53,Male,1,109.76,Month-to-Month,Fiber Optic,109.76,No,Yes
+cust985,44,Male,12,44.64,Two-Year,,535.6800000000001,No,Yes
+cust57,36,Male,18,111.71,Month-to-Month,DSL,2010.78,Yes,Yes
+cust910,66,Female,36,73.06,Month-to-Month,,2630.16,No,Yes
+cust178,59,Male,25,92.97,Month-to-Month,,2324.25,No,Yes
+cust749,38,Female,26,67.01,One-Year,,1742.2600000000002,No,Yes
+cust195,46,Male,6,37.61,Month-to-Month,DSL,225.66,Yes,Yes
+cust21,59,Female,6,73.56,One-Year,DSL,441.36,No,Yes
+cust583,51,Male,17,80.13,Month-to-Month,Fiber Optic,1362.21,No,Yes
+cust61,40,Female,46,92.65,Month-to-Month,DSL,4261.900000000001,Yes,Yes
+cust972,38,Female,16,35.53,Month-to-Month,DSL,568.48,Yes,Yes
+cust841,44,Male,27,95.59,One-Year,Fiber Optic,2580.9300000000003,No,Yes
+cust587,40,Female,4,116.23,Two-Year,Fiber Optic,464.92,Yes,Yes
+cust695,50,Female,3,37.52,Two-Year,DSL,112.56,No,Yes
+cust548,42,Female,60,66.7,Month-to-Month,DSL,4002.0,Yes,Yes
+cust326,32,Male,44,49.85,One-Year,,2193.4,No,Yes
+cust665,37,Male,4,81.66,One-Year,Fiber Optic,326.64,Yes,Yes
+cust256,40,Female,2,42.34,Month-to-Month,Fiber Optic,84.68,Yes,Yes
+cust35,53,Female,5,85.84,Month-to-Month,DSL,429.2000000000001,Yes,Yes
+cust788,49,Female,17,97.24,Month-to-Month,DSL,1653.08,Yes,Yes
+cust498,43,Female,6,96.5,Month-to-Month,,579.0,No,Yes
+cust952,48,Female,10,40.84,Two-Year,,408.4,No,Yes
+cust419,56,Male,0,119.11,One-Year,Fiber Optic,0.0,No,Yes
+cust262,44,Male,7,73.91,One-Year,,517.37,No,Yes
+cust47,40,Female,1,86.92,Two-Year,DSL,86.92,Yes,Yes
+cust967,38,Female,10,67.33,One-Year,DSL,673.3,Yes,Yes
+cust431,33,Female,1,35.56,Two-Year,DSL,35.56,Yes,Yes
+cust536,45,Female,21,102.76,One-Year,Fiber Optic,2157.96,Yes,Yes
+cust969,44,Female,31,89.37,Two-Year,,2770.4700000000003,No,Yes
+cust851,38,Male,45,39.31,One-Year,Fiber Optic,1768.95,No,Yes
+cust804,40,Male,11,32.51,Month-to-Month,,357.61,No,Yes
+cust221,68,Female,0,37.66,One-Year,,0.0,No,Yes
+cust855,59,Male,19,40.64,Month-to-Month,Fiber Optic,772.16,No,Yes
+cust864,62,Female,6,80.92,Month-to-Month,,485.52,No,Yes
+cust574,42,Female,8,36.31,Two-Year,Fiber Optic,290.48,No,Yes
+cust971,46,Female,12,88.34,Month-to-Month,,1060.08,No,Yes
+cust832,35,Male,1,115.13,Month-to-Month,Fiber Optic,115.13,Yes,Yes
+cust660,43,Female,23,108.16,One-Year,Fiber Optic,2487.68,Yes,Yes
+cust970,30,Female,1,69.78,One-Year,Fiber Optic,69.78,Yes,Yes
+cust183,34,Female,2,73.96,One-Year,,147.92,No,Yes
+cust754,55,Male,6,48.14,One-Year,,288.84000000000003,No,Yes
+cust173,44,Female,12,105.36,Two-Year,,1264.32,No,Yes
+cust689,52,Male,15,103.56,One-Year,DSL,1553.4,No,Yes
+cust712,44,Female,0,66.76,Two-Year,DSL,0.0,Yes,Yes
+cust759,36,Female,21,100.16,Month-to-Month,,2103.36,No,Yes
+cust127,35,Male,28,98.61,One-Year,,2761.08,No,Yes
+cust257,57,Female,33,82.26,Month-to-Month,,2714.5800000000004,No,Yes
+cust755,35,Male,4,114.1,Month-to-Month,Fiber Optic,456.4,No,Yes
+cust119,56,Female,14,100.54,Month-to-Month,DSL,1407.5600000000002,Yes,Yes
+cust480,56,Male,11,113.84,Two-Year,Fiber Optic,1252.24,Yes,Yes
+cust478,48,Female,12,95.97,Two-Year,,1151.64,No,Yes
+cust668,60,Male,76,82.49,One-Year,,6269.24,No,Yes
+cust136,60,Female,35,119.16,One-Year,DSL,4170.599999999999,No,Yes
+cust66,58,Male,10,54.48,One-Year,DSL,544.8,Yes,Yes
+cust172,36,Male,0,90.1,Month-to-Month,,0.0,No,Yes
+cust461,64,Female,12,46.62,Month-to-Month,Fiber Optic,559.4399999999999,No,Yes
+cust945,63,Female,10,90.81,Two-Year,,908.1,No,Yes
+cust235,66,Male,22,55.05,Month-to-Month,Fiber Optic,1211.1,Yes,Yes
+cust845,46,Female,9,60.85,One-Year,Fiber Optic,547.65,No,Yes
+cust766,37,Female,1,48.93,Two-Year,Fiber Optic,48.93,Yes,Yes
+cust10,50,Female,10,61.55,Month-to-Month,Fiber Optic,615.5,Yes,Yes
+cust812,40,Female,0,34.54,Month-to-Month,DSL,0.0,Yes,Yes
+cust46,37,Male,1,82.09,Month-to-Month,,82.09,No,Yes
+cust515,39,Female,5,92.28,Month-to-Month,DSL,461.4,No,Yes
+cust291,42,Female,1,70.86,Month-to-Month,Fiber Optic,70.86,Yes,Yes
+cust350,42,Female,8,43.9,One-Year,DSL,351.2,Yes,Yes
+cust981,52,Female,37,66.13,Month-to-Month,DSL,2446.81,Yes,Yes
+cust649,42,Female,28,39.02,One-Year,,1092.5600000000002,No,Yes
+cust719,41,Female,19,87.74,Month-to-Month,Fiber Optic,1667.06,Yes,Yes
+cust894,56,Female,31,93.06,Month-to-Month,DSL,2884.86,Yes,Yes
