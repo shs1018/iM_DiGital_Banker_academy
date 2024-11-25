@@ -12,3 +12,5 @@ pingouin
 statsmodels
 mysql-connector-python
 pymysql
+xgboost
+lightgbm
