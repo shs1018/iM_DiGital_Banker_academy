@@ -14,3 +14,7 @@ mysql-connector-python
 pymysql
 xgboost
 lightgbm
+parquet
+#DL
+tensorflow
+pytorch
