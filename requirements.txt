@@ -17,4 +17,6 @@ lightgbm
 parquet
 #DL
 tensorflow
-pytorch
+torch
+#model_selection
+autogluon
