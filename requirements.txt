@@ -18,5 +18,11 @@ parquet
 #DL
 tensorflow
 torch
-#model_selection
+#model_selection, autoML
 autogluon
+# Recommendation_System_algorithms
+mlxtend
+implicit
+xlearn
+gensim
+surprise
