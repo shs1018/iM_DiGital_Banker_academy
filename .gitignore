@@ -161,6 +161,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-/projects/iMbank_pj1/sampled_data
+projects/iMbank_pj1/sampled_data
 
-/projects/iMbank_pj3/datasets
+projects/iMbank_pj3/datasets
+
+recommendation_system/2025_codes/data
+
+recommendation_system/data
